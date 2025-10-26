@@ -1,6 +1,7 @@
 "use client";
 import { Marquee } from "@/components/ui/marquee";
 import SlidingWindow from "@/components/ui/sliding-window";
+import SlidingWindowVertical from "@/components/ui/sliding-window-vertical";
 import SVGStroke from "@/components/ui/svg-stroke";
 import React from "react";
 
@@ -18,7 +19,8 @@ export default function page() {
         <div className="h-screen w-full"></div>
       </div> */}
       <div className="h-screen w-full"></div>
-      <SlidingWindow />
+      <SlidingWindowVertical />
+      {/* <SlidingWindow /> */}
       <div className="h-screen w-full"></div>
       <div className="h-screen w-full"></div>
       <div className="h-screen w-full"></div>

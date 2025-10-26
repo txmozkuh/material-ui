@@ -7,17 +7,9 @@ interface WindowProps {
   totalItem: number;
   title?: string;
   scrollProgess: MotionValue<number>;
-  transform?: MotionValue<string>;
 }
 
-export default function Window({
-  index,
-  width,
-  totalItem,
-  title,
-  scrollProgess,
-  transform,
-}: WindowProps) {
+export default function Window({ index, width, totalItem, title, scrollProgess }: WindowProps) {
   const windowWidth = width - (width / 10) * (totalItem - 1);
   const colWidth = width / 10;
 
